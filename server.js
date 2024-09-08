@@ -26,6 +26,10 @@ app.use(cors(corsOptions));
 sql.connect(config, (err) => {
   if (err) console.error('SQL connection error:', err);
 });
+
+app.get('/', (req, res) => {
+  res.send('Hello, World!');
+});
  
 app.get('/api/top-rows', async (req, res) => {
   try {
