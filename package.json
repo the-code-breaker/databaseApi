@@ -3,10 +3,8 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "startApi": "npm install && node server.js",
-    "start": "npm run startApi"
-  },
+    "start":"node server.js"
+},
   "author": "",
   "license": "ISC",
   "description": "",
